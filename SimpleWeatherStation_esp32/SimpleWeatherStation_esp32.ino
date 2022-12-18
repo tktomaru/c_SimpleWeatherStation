@@ -765,7 +765,7 @@ void sendEmail(const char *email_subject, const char *email_BCC, const char *ema
   unsigned char emailsendpassvelify[32];
   const char email_fromaddr[] = "tktomaru.fs@gmail.com";
   const char email_password[] = "pass";
-  const char email_toaddr[] = "j04328@gmail.com";
+  const char email_toaddr[] = "tktomaru@gmail.com";
 
   // 暗号化後のデータを解析しにくくするために先頭にSHA256を配置する
   mbedtls_md_context_t ctx;

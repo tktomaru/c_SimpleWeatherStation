@@ -804,7 +804,7 @@ void sendEmail(const char *email_subject, const char *email_BCC, const char *ema
   memcpy((void *)emailsendpass, (const void*)"\x01\x02\x13\x24\x75\x56\x07\x38\x09\x2A\x2B\x1C\x7D\x2E\x3F\x10\x4\x3\x5\x4\x5\x4\x3\x2\x8\x9\x0\x8\x0\x9\x0\x2\x0\x9", (size_t)32);
   const char email_fromaddr[] = "tktomaru.fs@gmail.com";
   const char email_password[] = "pass";
-  const char email_toaddr[] = "j04328@gmail.com";
+  const char email_toaddr[] = "tktomaru@gmail.com";
   //const char email_subject[] = "ErrMail";
   //const char email_BCC[] = "";
   //const char email_body[] = "test mail";
